@@ -13,7 +13,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo"
+    "test": "xo",
+    "build": "electron-packager . --platform=darwin --arch=x64 --version=1.4.13 --icon=pizza.icns"
   },
   "files": [
     "index.js"
@@ -25,6 +26,7 @@
     "menubar": "^5.2.0"
   },
   "devDependencies": {
+    "electron-packager": "^8.4.0",
     "xo": "^0.17.0"
   },
   "xo": {
