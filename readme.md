@@ -5,7 +5,7 @@
 ![](./screen.png)
 
 ## Usage
-Download the app [here](./pizza-menubar-darwin-x64.zip).
+Download the app [here](https://github.com/niksrc/pizza-menubar/releases/latest).
 Currently Supports mac only.
 ## Dev
 Built With Electron
