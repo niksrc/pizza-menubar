@@ -1,6 +1,6 @@
 # pizza-menubar
 
-> File.pizza in your menubar
+> File.pizza in your menubar (p2p file transfer)
 
 ![](./screen.png)
 
