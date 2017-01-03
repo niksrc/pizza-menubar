@@ -1,44 +1,21 @@
-# pizza-menubar [![Build Status](https://travis-ci.org/niksrc/pizza-menubar.svg?branch=master)](https://travis-ci.org/niksrc/pizza-menubar)
+# pizza-menubar
 
 > File.pizza in your menubar
 
-
-## Install
-
-```
-$ npm install --save pizza-menubar
-```
-
+![](./screen.png)
 
 ## Usage
+Download the app from here
 
-```js
-const pizzaMenubar = require('pizza-menubar');
-
-pizzaMenubar('unicorns');
-//=> 'unicorns & rainbows'
+## Dev
+Built With Electron
 ```
+$ npm install
 
-
-## API
-
-### pizzaMenubar(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
+# then use electron or electron-packager to build/run the app:
+$ npm install electron-prebuilt -g
+$ electron index.js
+```
 
 ## License
 
